@@ -1,9 +1,5 @@
-## Workshop: **Make Art with JavaScript** - Ian Nicholson
+# Make Art with JavaScript - with Ian Nicholson
 
-Assignment invite: https://classroom.github.com/g/_rnBAEL9
+A workshop for [Hackathon By The Sea – Girls Edition](https://www.hackathonbythesea.com/girls-edition)
 
 Instructions: https://github.com/michaelghinrichs/p5_scaffold/blob/master/README.md
-
-## Intermission Talk 1: **Problem Solving** - Vlad Georgescu
-
-## Intermission Talk 2: **Test-Driven Development** - Richard Cave
