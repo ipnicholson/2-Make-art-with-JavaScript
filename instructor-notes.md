@@ -4,8 +4,16 @@
 
 ![sample](https://i.imgur.com/4BybKWa.png)
 
+## Getting Started
+
+We'll be working out of this template on Codepen: https://codepen.io/ipnicholson/pen/OeRZOL
+
+Click the green "Create Pen from this Template" button to start. You may have to sign in to Codepen (Use your GitHub account 😀)
+
+![](https://i.imgur.com/HPXvGoA.png)
+
 ## p5.js: Where the Magic Happens
-We are using [p5.js](https://p5js.org/), a JavaScript drawing library. A library is code that someone else (typically many people) have written for others to use.
+We are using [p5.js](https://p5js.org/), a JavaScript drawing library. A library is code that someone else (typically many people) have written for others to use. It's pre-loaded into the Codepen template for you
 
 p5 uses two main functions, setup() and draw():
 - setup runs once when the page first loads
