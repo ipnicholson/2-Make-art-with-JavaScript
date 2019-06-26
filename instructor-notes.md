@@ -1,26 +1,13 @@
-# Art with JavaScript
+# Make Art with JavaScript
 
-## Example of what we're making
+## Example
 
-## Functions
-- writing functions
-  - let's make a Hello, World program in JS
-  - `hello-world.js`
-  - use `node` to run
-- calling functions
-  - invoke function once
-  - invoke the function multiple times
+![sample](https://i.imgur.com/4BybKWa.png)
 
-## How the code is wired together
-Open the `./index.html` file and see what is going on!
-- line 4 adds p5.js library
-- line 5 adds your sketch.js
-- Do we have a `sketch.js` file in our repo?
+## p5.js: Where the Magic Happens
+We are using [p5.js](https://p5js.org/), a JavaScript drawing library. A library is code that someone else (typically many people) have written for others to use.
 
-## Where the magic happens
-Open `./sketch.js`, this is where we do our coding!
-
-It has two main functions, setup() and draw():
+p5 uses two main functions, setup() and draw():
 - setup runs once when the page first loads
 - draw runs on a loop and happens many times
 
@@ -36,11 +23,6 @@ function setup() {
 }
 ```
 
-Now, open the index.html file in chrome:
-- open file explorer
-- find project
-- find file, click it, open it in chrome
-
 ### How did that work?
 Here is the Application Programming Interface (API) for line:
 https://p5js.org/reference/#/p5/line
@@ -51,23 +33,12 @@ Draw a line from `(x1,y1)` to `(x2, y2)`
 
 ### Now make a box!
 
-#### Hard way, using line
-You could do a line from:
-- top left to top right
-- top right to bottom right
-- bottom right to bottom left
-- bottom left to top left
-
-But that is really not fun...
-There must be a better way
-
 Let's consult the documentation!
 
 https://p5js.org/reference/
 
 Square -> Rectangle -> Rect
 
-#### Easy way, using rect
 We found the right function in the p5 API, rect(). Let's use it:
 `rect(60, 60, 80, 80)`
 
@@ -79,12 +50,9 @@ function setup() {
 ```
 
 #### Uh oh... why do i just have a stick figures legs?
-You all might be like this right now:
 
-> That's not a rect! You lied to us Michael, you LIED!
-
-I swear, I didn't lie, there is a rect there, we just can't see it!
 The problem is our canvas is too small!
+
 Lets make it bigger:
 
 `createCanvas(800, 800);`
@@ -114,9 +82,7 @@ function setup() {
 ### Ok, how bout a circle?
 Back to the documentation!
 
-Can't find circle :( what is another name for a circle?
-
-An ellipse!
+An ellipse can be a circle!
 https://p5js.org/reference/#/p5/ellipse
 
 `ellipse(60, 60, 80, 80);`
